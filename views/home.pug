@@ -1,0 +1,45 @@
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+block style
+    style 
+        include ../static/style.css
+
+block content 
+    section#introSection
+        div Welcome to Star Dance Academy
+        div.small Eat Sleep Dance Repeat
+
+    section#mission
+        h2 Our Mission  
+        div#box
+            h3 Dance perfection
+            #card   
+                #card-img 
+                    img(src=" ../static/icon1.png")
+                #card-text 
+                    p Perfection is only reason to dance with heart
+        div#box 
+            h3 Dance the way you like
+            #card   
+                #card-img 
+                    img(src=" ../static/icon2.png")
+                #card-text 
+                    p Enjoying the best moments of life
+        div#box 
+            h3 Teaching expert
+            #card   
+                #card-img
+                    img(src=" ../static/icon3.png")
+                #card-text 
+                    p Teacher is the best person to lead in carrer
+
+    section#sponsorsSection
+        h2 Our Sponsors
+        #img-logo 
+            img(src="../static/applelogo.png")
+            img(src="../static/googlelogo.png")
+            img(src="../static/teslalogo.png")
+            img(src="../static/instalogo.png")
+            

@@ -1,0 +1,61 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul 
+            #logo 
+                img(src="../static/logo.jpg")
+            li 
+                a(href="http://") Home 
+            li 
+                a(href="http://") About
+            li 
+                a(href="http://") Services
+            li 
+                a(href="http://") Class info
+            li 
+                a(href="http://") Contact Us
+    section#introSection
+        div Welcome to Star Dance Academy
+        div.small Eat Sleep Dance Repeat
+
+    section#mission
+        h2 Our Mission  
+        div#box
+            h3 Dance perfection
+            #card   
+                #card-img 
+                    img(src=" ../static/icon1.png")
+                #card-text 
+                    p Perfection is only reason to dance with heart
+        div#box 
+            h3 Dance the way you like
+            #card   
+                #card-img 
+                    img(src=" ../static/icon2.png")
+                #card-text 
+                    p Enjoying the best moments of life
+        div#box 
+            h3 Teaching expert
+            #card   
+                #card-img
+                    img(src=" ../static/icon3.png")
+                #card-text 
+                    p Teacher is the best person to lead in carrer
+
+    section#sponsorsSection
+        h2 Our Sponsors
+        #img-logo 
+            img(src="../static/applelogo.png")
+            img(src="../static/googlelogo.png")
+            img(src="../static/teslalogo.png")
+            img(src="../static/instalogo.png")
+
+    footer#footer
+        | Copyright © 2021 StarDanceAcademy.com | All rights reserved
+
+    script
+      include ../static/script.js
